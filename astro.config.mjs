@@ -7,6 +7,10 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Kernadoc',
+			logo: {
+				src: '/public/title.svg',
+				replacesTitle: true,
+			},
 			customCss: [
 				// Fichiers Fontsource pour les graisses regular et semi-bold.
 				'@fontsource/jetbrains-mono/400.css',
