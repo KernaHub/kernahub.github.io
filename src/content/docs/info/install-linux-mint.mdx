@@ -27,4 +27,43 @@ Cocher <span style="color:green">Installer les codecs multimedia</span> puis cli
 
 Choisir <span style="color:green">autre chose</span> puis cliquer sur <span style="color:green">continuer</span>
 
+Supprimer toutes les partitions et créer des nouvelles partitions primaire au début de l'espace en cliquant sur <span style="color:green">+</span>
 
+Voici les partitions à créer :
+
+* /dev/sda1   biosgrub   1MB (zone réservée pour le chargeur d'amorcage BIOS)
+* /dev/sda2   efi        100MB (Partition système EFI)
+* /dev/sda3   swap       4096Mo (espace d'échange («swap»))
+* /dev/sda4   ext4       le reste (système de fichiers journalisé ext4) point de montage /
+
+Dans la fenètre d'alerte "Faut-il appliquer les changements sur les disques ?" cliquer sur <span style="color:green">continuer</span>
+
+Cliquer sur <span style="color:green">Installer maintenant</span>
+
+## Où êtes-vous ?
+
+Choisir <span style="color:green">Paris</span> puis cliquer sur <span style="color:green">continuer</span>
+
+## Qui êtes-vous ?
+
+* Votre nom : Prénom Nom (de la personne qui à commandé l'ordinateur)
+* Le nom de votre ordinateur : kernahub
+* Choisir un nom d'utilisateur : prénom
+* Choisir un mot de passe : PrenomDateDeNaissance
+* Cocher <span style="color:green">ouvrir la session automatiquement</span>
+
+Cliquer sur <span style="color:green">continuer</span>
+
+
+## Installation terminée
+
+Cliquer sur <span style="color:green">Redémarrer maintenant</span>
+
+
+## Please remove the installation medium, then press ENTER
+
+* Enlever la clé USB
+* Appuyer sur <span style="color:green">entrée</span>
+
+
+# Redémarrage de l'ordinateur
