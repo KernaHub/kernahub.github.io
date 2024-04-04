@@ -72,15 +72,25 @@ Cliquer sur <span style="color:green">Redémarrer maintenant</span>
 
 Fermer la fenètre
 
-## Mettre à jours l'ordinateur
+## Mettre à jour l'ordinateur
 
-Saisir les commandes suivantes (apparemment "sudo" n'est pas nécessaire) :
+Créer le fichier /etc/apt/apt.conf.d/proxyPerso.conf et y placer les lignes suivantes :
+```
+Acquire::http::Proxy "http://172.16.0.253:3128/";
+Acquire::https::Proxy "http://172.16.0.253:3128/";
+```
+
+
+Saisir les commandes suivantes :
 
 ```
-apt update
-apt upgrade -y
-apt install -y vlc neofetch htop
-apt clean
+sudo apt update
+sudo apt upgrade -y
+sudo apt install -y vlc neofetch htop
+sudo apt clean
 ```
 
 Installer ublock origin dans firefox
+
+
+Supprimer le fichier /etc/apt/apt.conf.d/proxyPerso.conf
