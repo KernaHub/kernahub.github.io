@@ -7,9 +7,9 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
-      "GitHub": "https://github.com/Funasitien",
-      "Repo": "https://github.com/Funasitien/docuception",
-      "Discord": "https://dsc.gg/drmcld",
+      "GitHub": "https://github.com/KernaHub",
+      "Repo": "https://github.com/KernaHub/kernahub.github.io",
+      //"Discord": "https://dsc.gg/drmcld",
     },
   }),
 }
@@ -17,7 +17,7 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.Breadcrumbs({ rootName: "📚 La Philo", hideOnRoot: false}),
+    Component.Breadcrumbs({ rootName: "💾 KERNAHUB", hideOnRoot: false}),
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
@@ -38,7 +38,7 @@ export const defaultContentPageLayout: PageLayout = {
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs({ rootName: "🍭 DOCUCEPTION", hideOnRoot: true}), Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [Component.Breadcrumbs({ rootName: "💾 KERNAHUB", hideOnRoot: true}), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),

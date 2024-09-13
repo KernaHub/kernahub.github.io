@@ -8,22 +8,22 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "📚 La Philo",
+    pageTitle: "💾 KERNAHUB",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "fr-FR",
-    baseUrl: "philo.dreamclouds.fr",
+    baseUrl: "doc.kernahub.fr",
     ignorePatterns: ["private", "templates", ".obsidian", ".trash"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Poppins",
-        body: "Poppins",
+        header: "JetBrains Mono",
+        body: "JetBrains Mono",
         code: "JetBrains Mono",
       },
       colors: {
