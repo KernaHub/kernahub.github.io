@@ -6,3 +6,9 @@ https://github.com/PrismLauncher/PrismLauncher/issues/954
 
 Solutions possibles.
 - https://packages.debian.org/fr/sid/update-glx
+
+Commandes
+
+glxinfo
+
+-> https://linux.debian.user.narkive.com/BIecsojl/glx-and-nouveau
